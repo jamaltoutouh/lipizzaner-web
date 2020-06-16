@@ -1,0 +1,49 @@
+---
+title: "Lipizzaner"
+layout: default
+pagination:
+    enabled: true
+description: "A System That Scales Robust Generative Adversarial Network Training."
+---
+
+
+<style type="text/css">
+    .col-md- {
+    }
+</style>
+<div class="container">
+    
+{% if page.url == "/" %}
+
+
+    
+    
+<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<div class="row remove-site-content-margin">
+    {% assign page = site.posts[-1] %}
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+                <div class="h-100 tofront">
+                    <div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+                        <div class="{% if page.image %} col-md-9 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                            <h1 class="display-4 mb-4 jt-article-headline">{{ page.title }}</h1>
+                        </div>
+                        {% if page.image %}
+                        <div class="col-md-3 pr-0 align-self-center">
+                            <img class="rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <!-- Article -->
+                <article class="article-post">
+                {{ page.content }}
+                </article>
+            </div>
+	    </div>
+    </div>
+{% endif %}
+</div></div>

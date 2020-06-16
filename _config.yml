@@ -1,0 +1,97 @@
+# Site
+name: 'Lipizzaner'
+description: 'Lipizzaner is a framework to efficiently train generative adversarial networks (GANs).'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: 'https://github.mit.edu/pages/toutouh/lipizzaner.github.io/'
+#baseurl: '/lipizzaner'
+url: 'lipizzaner.github.io'
+disqus: 'lipizzaner-web'
+email: 'fake-email@csail.mit.edu'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+
+    unamay:
+      name:           Una-May O'Reilly
+      site:           https://alfagroup.csail.mit.edu/unamay
+      avatar:         /assets/images/avatar-female.png
+      bio:            "ALFA Founder, Principal Investigator"
+      email:          unamay@csail.mit.edu
+      twitter:        https://twitter.com/unamaymit
+
+    jamal:
+      name:           Jamal Toutouh
+      site:           https://jamal.es
+      avatar:         /assets/images/people/jamalavatar.jpg
+      bio:            "Postdoctoral Fellow (MSCA-IF GF)"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/jamtou
+      scholar:        https://scholar.google.com/citations?user=RrOh0lIAAAAJ&hl=es
+
+    erik:
+      name:           Erik Hemberg
+      site:           https://alfagroup.csail.mit.edu/erik
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Research Scientist"
+      email:          hembergerik@csail.mit.edu
+      scholar:        https://scholar.google.se/citations?user=0FM8tB4AAAAJ&hl=en
+      twitter:        no
+
+    abdullah:
+      name:           Abdullah Al-Dujaili
+      site:           https://ash-aldujaili.github.io/
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Postdoctoral Researcher"
+      email:          aldujail001@e.ntu.edu.sg
+      scholar:        https://scholar.google.com.sg/citations?user=r7g5r7cAAAAJ
+      twitter:        https://twitter.com/AshAldujaili
+
+
+    tom:
+      name:           Tom Schmiedlechner
+      site:           http://alfagroup.csail.mit.edu/
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Researcher"
+      email:          alfa-apply@csail.mit.edu
+      scholar:        https://scholar.google.es/scholar?hl=es&as_sdt=0%2C30&q=Tom+Schmiedlechner&btnG=
+      twitter:        no
+
+
+ # Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

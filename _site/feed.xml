@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/" rel="alternate" type="text/html" /><updated>2020-06-15T21:27:00-04:00</updated><id>http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/feed.xml</id><title type="html">Lipizzaner</title><subtitle>Lipizzaner is a framework to efficiently train generative adversarial networks (GANs).</subtitle><entry><title type="html">Lipizzaner development environment setup</title><link href="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-install/" rel="alternate" type="text/html" title="Lipizzaner development environment setup" /><published>2019-01-24T00:00:00-05:00</published><updated>2019-01-24T00:00:00-05:00</updated><id>http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-install</id><content type="html" xml:base="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-install/">&lt;p&gt;Lipizzaner source code is freely available in GitHub. Thus, to start one has just to clone the master branch.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/ALFA-group/lipizzaner-gan.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then, there are two different options to setup the environment to use our framework.&lt;/p&gt;
+&lt;h5 id=&quot;conda&quot;&gt;Conda&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda env create -f ./src/helper_files/environment.yml
+source activate lipizzaner
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;pip&quot;&gt;Pip&lt;/h5&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install -r ./src/helper_files/requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>jamal</name></author><category term="tutorial" /><category term="setup" /><summary type="html">Lipizzaner source code is freely available in GitHub. Thus, to start one has just to clone the master branch.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/assets/images/tutorials/installer.png" /></entry><entry><title type="html">Lipizzaner: A System That Scales Robust Generative Adversarial Network Training</title><link href="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-home/" rel="alternate" type="text/html" title="Lipizzaner: A System That Scales Robust Generative Adversarial Network Training" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-home</id><content type="html" xml:base="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/lipi-home/">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.mit.edu/pages/toutouh/lipizzaner.github.io//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content><author><name>jamal</name></author><category term="sticky" /><summary type="html">There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/assets/images/alfa-logo.png" /></entry></feed>
