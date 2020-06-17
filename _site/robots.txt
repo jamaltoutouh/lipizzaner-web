@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/https://github.mit.edu/pages/toutouh/lipizzaner.github.io/sitemap.xml
+Sitemap: http://localhost:4000/lipizzaner-web/sitemap.xml
