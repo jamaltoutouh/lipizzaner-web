@@ -12,6 +12,7 @@ Lipizzaner framework is the backbone of several research studies about GAN train
 {: reversed="reversed"}
 
 #### Conferences:
+0. M. Esteban, J. Toutouh, S. Nesmachnow. **Parallel/distributed generative adversarial neural networks for data augmentation of COVID-19 training images**. In *the Latin America High Performance Computing Conference (CARLA 2020)*. (Under review).
 0. J. Toutouh, E. Hemberg, U. O’Reilly. **Analyzing the Components of Distributed Coevolutionary GAN Training**. In *The Sixteenth International Conference on Parallel Problem Solving from Nature (PPSN XVI)*. pages. 10, 2020.
 0. J. Toutouh, E. Hemberg, U. O’Reilly. **Re-purposing Heterogeneous Generative Ensembles with Evolutionary Computation**. In *Genetic and Evolutionary Computation Conference (GECCO ’20)*, pages. 10, 2020. [DOI: 10.1145/3377930.3390229 ](https://arxiv.org/abs/2003.13532)
 0. E. Perez, S. Nesmachnow, J. Toutouh, E. Hemberg, U. O’Reilly. **Parallel/distributed implementation of cellular training for generative adversarial neural networks**. In *10th IEEE Workshop Parallel/Distributed Combinatorics and Optimization (PDCO 2020)*, pages 7, 2020.[arxiv.org/abs/2004.04633](https://arxiv.org/abs/2004.04633)
