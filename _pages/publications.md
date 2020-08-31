@@ -8,7 +8,7 @@ Lipizzaner framework is the backbone of several research studies about GAN train
 
 #### Journals and book chapters:
 0. E. Hemberg, J. Toutouh, U. O’Reilly. **Spatial Coevolution for Diverse Training of Generative Adversarial Networks**. *ACM Transactions on Evolutionary Learning and Optimization*, pages 25, Springer *(Under review)*.
-0. J. Toutouh, E. Hemberg, U. O’Reilly. **Data Dieting in GAN Training**. H. Iba, N. Noman (Eds.), *Deep Neural Evolution - Deep Learning with Evolutionary Computation*, pages 19, Springer, 2020, Springer (In Press).
+0. J. Toutouh, E. Hemberg, U. O’Reilly. **Data Dieting in GAN Training**. In: Iba H., Noman N. (eds) *Deep Neural Evolution. Natural Computing Series*. Springer, Singapore. [DOI: 10.1007/978-981-15-3685-4_14](https://arxiv.org/abs/2004.04642)
 {: reversed="reversed"}
 
 #### Conferences:
